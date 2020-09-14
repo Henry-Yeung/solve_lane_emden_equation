@@ -1,7 +1,7 @@
 # Projects description
 Solving the Lane-Emden Equation. This project will estimate the dimensionless radius `ξ` that is corresponding to a range of polytropic indices `n` (from `n = 0` to `n = 4`)
 
-# Required Python Packages
+# Required Python packages
 The required Python packages: `matplotlib.pyplot` and `numpy`.
 
 # How to download this project
