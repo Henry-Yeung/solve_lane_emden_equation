@@ -10,5 +10,3 @@ To download this project, please click the green button 'Code' and click "Downlo
 # How to run this project
 After you have donwloaded the file, unzip it and open the file in your terminal. Type `python Lane-Emden-equation.py` to run the project. The result will include the values of `ξ` (xi), the corresponding gradients and its `n` values (polytropic indices). The relationship between `Theta` and `xi` will also be shown as a separate graph (from `n = 0` to `n = 5`).
 
-# Note
-This program was written in Python and tested only in Python 2.7.
