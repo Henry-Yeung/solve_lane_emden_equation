@@ -36,13 +36,13 @@ for n in range(6) :
         theta3 = theta2 + delta_xi * initial_gradient       # calculate the value of theta where x < 0 (called as theta3)
 
 
-        # Using the interpolation method to estimate the value of xi which is called as \uc0\u958  below
+        # Using the interpolation method to estimate the xi value which is called as ξ below
         def interpolation(x):          # define the function
             inter = ((-theta2*(xi3-xi2)) / (theta3-theta2)) + xi2  # put the equation for linear interpolation which was rearranged as xi (where x > 0) as the subject
             return inter          # return the function so that the data will be stored
-        xi_r = interpolation(0)   # assign the equation to a name for calcaulating different values of xi accrodingly to different n
+        xi_r = interpolation(0)   # assign the equation to a name for calculating different values of xi accrodingly to different n
 
-        #print out the xi values, polytropic indices (n), the values of dtheta/dxi (called as initial_gradient) from n=0 to n=4 (under the condition we set at the begining of this cell)
+        # print out the xi values, polytropic indices (n), the values of dtheta/dxi (called as initial_gradient) from n=0 to n=4 (under the condition we set at the beginning of this cell)
         initial_gradient = initial_gradient + delta_xi * b
         print('The value of ξ is = {:.3f} when n = {} and the gradient is {}.'.format(xi_r, n, initial_gradient))
 
